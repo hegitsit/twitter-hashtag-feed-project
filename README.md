@@ -10,3 +10,7 @@ to serve up responses from our Twitter API and sends them to the client for disp
 
 This project gave me a lot of insight to the Twitter API and how it limitations behave when using it when building a Create React Applicaiton. This was without a doubt the most challenging aspect
 of this project.
+
+### Demo
+Below is a brief video of the application in action.
+![twitter](https://user-images.githubusercontent.com/1784415/82790532-32745d00-9e3a-11ea-8c4c-0a8ba38e79ea.gif)
