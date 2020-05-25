@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  background: #1DA1F2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #1DA1F2, #1976af);
+  background: -moz-linear-gradient(right, #1DA1F2, #1976af);
+  background: -o-linear-gradient(right, #1DA1F2, #1976af);
+  background: linear-gradient(to left, #1DA1F2, #1976af);
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.app-header {
+  display: inline-block;
+  color: white;
+  font-family: 'Righteous', serif;
+  font-size: 30px;
+  margin: 5%;
+  text-shadow: .03em .03em 0 rgb(36, 36, 70);
+}
+
+.app-header:after {
+  content: attr(data-shadow);
+  position: absolute;
+  top: .06em;
+  left: .06em;
+  z-index: -1;
+  text-shadow: none;
+  background-image:
+    linear-gradient(45deg,
+      transparent 45%,
+      hsla(48, 20%, 90%, 1) 45%,
+      hsla(48, 20%, 90%, 1) 55%,
+      transparent 0);
+  background-size: .05em .05em;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shad-anim 15s linear infinite;
+}
+
+@keyframes shad-anim {
+  0% {
+    background-position: 0 0
+  }
+
+  0% {
+    background-position: 100% -100%
+  }
+}
