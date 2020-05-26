@@ -15,12 +15,11 @@ const Search = () => {
     twitterContext.searchByHashTags(newText)
     setText('');
   }
-
   return (
     <Fragment>
       <form className="form" onSubmit={onSubmit}>
         <input type="text" name="text" placeholder="Search a hashtag..." value={text} onChange={onChange} />
-        <input type="submit" value="Search" className="btn btn-search" />
+        {text.length > 1 ? <input type="submit" value="Search" className="btn btn-search" /> : null}
       </form>
     </Fragment>
   )
