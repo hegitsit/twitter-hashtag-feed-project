@@ -3,7 +3,6 @@ import {
 } from '../types';
 
 export default (state, action) => {
-  console.log(' action.payload,', action.payload)
   switch (action.type) {
     case SEARCH_HASHTAGS:
       return {

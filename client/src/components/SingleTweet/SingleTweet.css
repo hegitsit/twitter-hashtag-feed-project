@@ -1,6 +1,6 @@
-.wrapper {
-  max-width: 400px;
-  margin: 50px auto;
+.tweet-wrapper {
+  max-width: 377px;
+  margin: 50px 0 0 0;
   padding-left: 1em;
   padding-right: 1em;
 }
@@ -40,6 +40,7 @@
 .card {
   background-color: #fff;
   margin-bottom: 1.6rem;
+  min-height: 370px;
 }
 
 .card__padding {
@@ -59,13 +60,6 @@
 
 .card__content {
   position: relative;
-}
-
-/* card meta */
-.card__meta time {
-  font-size: 1.5rem;
-  color: #bbb;
-  margin-left: 0.8rem;
 }
 
 /* card article */

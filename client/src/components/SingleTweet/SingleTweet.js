@@ -3,11 +3,9 @@ import './SingleTweet.css';
 
 const SingleTweet = ({ tweetData }) => {
   const { user, text } = tweetData;
-  console.log('props', user)
 
   return (
-    <div className="wrapper">
-
+    <div className="tweet-wrapper">
       <div className="card radius shadowDepth1">
         <div className="card__image border-tlr-radius">
           <img src={user.profile_banner_url} className="border-tlr-radius" />
