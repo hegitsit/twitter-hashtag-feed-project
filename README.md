@@ -13,4 +13,4 @@ of this project.
 
 ### Demo
 Below is a brief video of the application in action.
-![twitter](https://user-images.githubusercontent.com/1784415/82790532-32745d00-9e3a-11ea-8c4c-0a8ba38e79ea.gif)
+![new-twitter](https://user-images.githubusercontent.com/1784415/82923505-13b0bc00-9f49-11ea-8619-4841f77bcaa8.gif)
